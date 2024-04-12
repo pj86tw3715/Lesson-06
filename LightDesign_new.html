@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>輕設計工作室Light Design Studio</title>
+    <link href="website0301.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="lightbox2-dev/src/js/lightbox.js"></script>
+    <link href="lightbox2-dev/src/css/lightbox.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="css/magnific-popup.css">
+    <script type="text/javascript" src="js/jquery.magnific-popup.js"></script> -->
+    <script>
+        function effectFadeTo(targetElement, duration, form, to) {
+            $(targetElement).fadeTo(duration / 2, form);
+            $(targetElement).fadeTo(duration / 2, to);
+        }
+    </script>
+    <script>
+        lightbox.option({
+          'resizeDuration': 200,
+          'wrapAround': true
+        })
+    </script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        $(function () {
+            $(".photolist img").on({
+                mouseover: function () {
+                    effectFadeTo(this, 2000, 0.2, 1)
+                }
+            });
+            $(function () {
+                $('#contentMain').magnificPopup({ delegate: 'a', type: 'image', gallery: { enabled: true } });
+            });
+        });
+    </script>
+    <div id="header"><a href="index_new.html"><img src="images3/logo.gif" width="182" height="60"
+                class="headerLogo transition" /></a><span class="headerCopy">Best: 1024*768<br />
+            Copyright © Light Design Studio All rights reserved.</span></div>
+    <div id="content">
+        <div id="contentL"><a href="about.html"><img src="images3/menu1.jpg" width="242" height="83"
+                    class="noborder transition" /></a><a href="works.html"><img src="images3/menu2.jpg" width="242"
+                    height="84" class="noborder transition" /></a><a
+                href="mailto://service@flag.com.tw?subject=&quot;Design Case!!&quot;"><img src="images3/menu3.jpg"
+                    width="242" height="93" class="noborder transition" /></a>
+            <div id="listNew">
+                <p>07-01<br />
+                    <a href="http://www.flag.com.tw" target="_blank">輕設計工作室參與的新書 「正確學會 Dreamweaver CS6 的 16 堂課」
+                        出版了，詳細請連此</a>
+                </p>
+                <p>05-20<br />
+                    輕設計獨家設計手提袋新上架，請洽各網路商店</p>
+                <p>05-01<br />
+                    輕設計個性 T 恤上架，請洽各網</p>
+            </div>
+        </div>
+        <div id="contentR"><img src="images3/page_photo.jpg" width="487" height="186" class="topPhoto transition" />
+            <div id="contentMain">
+                <div class="photolist">
+                    <p><a href="images/photo2/001.jpg" title="第一式 墙壁俯卧撑" data-lightbox="roadtrip"><img src="images/photo2/001s.png" alt=""></a>
+                    </p>
+                    <p>第一式 墙壁俯卧撑</p>
+                </div>
+                <div class="photolist">
+                    <p><a href="images/photo2/002.jpg" title="第二式 上斜俯卧撑" data-lightbox="roadtrip"><img src="images/photo2/002s.png" alt=""></a></p>
+                    <p>第二式 上斜俯卧撑</p>
+                </div>
+                <div class="photolist">
+                    <p><a href="images/photo2/003.jpg" title="第三式 膝盖俯卧撑" data-lightbox="roadtrip"><img src="images/photo2/003s.png" alt=""></a>
+                    </p>
+                    <p>第三式 膝盖俯卧撑</p>
+                </div>
+                <div class="photolist">
+                    <p><a href="images/photo2/004.jpg" title="第四式 半俯卧撑" data-lightbox="roadtrip"><img src="images/photo2/004s.png" alt=""></a>
+                    </p>
+                    <p>第四式 半俯卧撑</p>
+                </div>
+                <div class="photolist">
+                    <p><a href="images/photo2/005.jpg" title="第五式 标准俯卧撑" data-lightbox="roadtrip"><img src="images/photo2/005s.png" alt=""></a>
+                    </p>
+                    <p>第五式 标准俯卧撑</p>
+                </div>
+                <div class="photolist">
+                    <p><a href="images/photo2/006.jpg" title="第六式 窄距俯卧撑" data-lightbox="roadtrip"><img src="images/photo2/006s.png" alt=""></a>
+                    </p>
+                    <p>第六式 窄距俯卧撑</p>
+                </div>
+                <div class="photolist">
+                    <p><a href="images/photo2/007.jpg" title="第七式 偏重俯卧撑" data-lightbox="roadtrip"><img src="images/photo2/007s.png" alt=""></a>
+                    </p>
+                    <p>第七式 偏重俯卧撑</p>
+                </div>
+                <div class="photolist">
+                    <p><a href="images/photo2/008.jpg" title="第八式 单臂半俯卧撑" data-lightbox="roadtrip"><img src="images/photo2/008s.png" alt=""></a>
+                    </p>
+                    <p>第八式 单臂半俯卧撑</p>
+                </div>
+                <div class="photolist">
+                    <p><a href="images/photo2/009.jpg" title="第九式 杠杆俯卧撑" data-lightbox="roadtrip"><img src="images/photo2/009s.png" alt=""></a>
+                    </p>
+                    <p>第九式 杠杆俯卧撑</p>
+                </div>
+                <div class="photolist">
+                    <p><a href="images/photo2/010.jpg" title="最终式 单臂俯卧撑" data-lightbox="roadtrip"><img src="images/photo2/010s.png" alt=""></a>
+                    </p>
+                    <p>最终式 单臂俯卧撑</p>
+                </div>
+                <br clear="left">
+            </div>
+            <div id="wallpaper">桌布下載：<a href="images/photo2/001.jpg" target="_blank">800*600</a> <a
+                    href="images/photo2/photo2.7z">1024*768</a></div>
+        </div>
+    </div>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
